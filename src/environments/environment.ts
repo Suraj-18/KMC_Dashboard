@@ -3,7 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  BACKEND_URL: 'http://ec2-44-202-134-80.compute-1.amazonaws.com:8080/kmc_api/'
 };
 
 /*
